@@ -1,11 +1,10 @@
-import { Link } from "react-router-dom";
 import React from "react";
 export default function NavBar() {
   return (
     <nav>
-      <Link to="/" className="logo">
+      <a href="/" className="logo">
         Eat Smart
-      </Link>
+      </a>
     </nav>
   );
 }
